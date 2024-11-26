@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Party Time, your premier event management company for unforgettable celebrations.">
+    <title>About Us | Hole Golf &amp; Resorts</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+		 h1, h2 {
+            font-family: 'Poppins', sans-serif;
+            color: green;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+		.navbar {
+            background-color: #333;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        .navbar .logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar .nav-links li {
+            margin-left: 1rem;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #ff6347; /* Example hover color (tomato) */
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar .nav-links {
+                flex-direction: column;
+                display: none;
+                width: 100%;
+            }
+
+            .navbar .nav-links.active {
+                display: flex;
+            }
+
+            .navbar .menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                color: #fff;
+                font-size: 1.5rem;
+                cursor: pointer;
+                margin-top: 0.5rem;
+            }
+        }
+		
+		.container h2 { 
+			text-align: center
+		}
+		
+        </style>
+</head>
+
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Hole Golf &amp; Resorts</h1>
+             <nav class="navbar">
+        <div class="logo">
+            <img src="logo1.png" alt="Company Logo" width="100" height="100" style="border-radius: 50%;"> 
+        </div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+         <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about us.html">About us</a></li>
+        <li><a href="Room and Suites.html">Room &amp; Suites&nbsp; </a></li>
+        <li><a href="dining1.html">Dining</a></li>
+        
+    </ul>
+    </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to <strong>Party Time</strong>! We are a full-service event management company that brings your dream celebrations to life. From intimate gatherings to grand events, we specialize in creating unforgettable moments. With our expertise, passion, and dedication, we transform your vision into reality.</p>
+            <p>Founded by a team of creative professionals, Party Time has become a go-to choice for clients who want to celebrate in style. We believe every event is unique, which is why we tailor each experience to reflect your personality and preferences.</p>
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li><strong>Personalized Service:</strong> We focus on understanding your needs and delivering a custom experience for every event.</li>
+                <li><strong>Expert Team:</strong> Our team of event planners, designers, and coordinators work tirelessly to ensure everything runs smoothly.</li>
+                <li><strong>Attention to Detail:</strong> From venue selection to decor, we pay attention to every little detail, ensuring your event is perfect.</li>
+                <li><strong>Stress-Free Planning:</strong> Let us handle all the details while you relax and enjoy your special day.</li>
+            </ul>
+            <p>At Party Time, our mission is to make your celebration an extraordinary experience. Whether it’s a birthday, wedding, corporate event, or any other special occasion, we are here to create moments that you and your guests will cherish forever.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="John Doe - Founder & Event Director">
+                    <h4>John Doe</h4>
+                    <p>Founder & Event Director</p>
+                </div>
+                <div class="team-member">
+                    <img src="team2.jpg" alt="Jane Smith - Lead Designer">
+                    <h4>Jane Smith</h4>
+                    <p>Lead Designer</p>
+                </div>
+                <div class="team-member">
+                    <img src="team3.jpg" alt="Emily Brown - Coordinator">
+                    <h4>Emily Brown</h4>
+                    <p>Event Coordinator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Party Time. All Rights Reserved.</p>
+            <ul class="social-links">
+                <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" aria-label="Twitter">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <style>
+        #about {
+            background: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #about .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #about h2, #team h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        #about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #about ul {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 0;
+        }
+
+        #about ul li {
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        #team {
+            background-color: #f1f1f1;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .team-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 250px;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .team-member h4 {
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+        }
+
+        .team-member p {
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .social-links {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        footer .social-links li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+    </style>
+</body>
+</html>

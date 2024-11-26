@@ -1,0 +1,244 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Party Time, your premier event management company for unforgettable celebrations.">
+    <title>Room and Suites | Hole Golf &amp; Resorts</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+		 h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: green;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+		.navbar {
+            background-color: #333;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        .navbar .logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar .nav-links li {
+            margin-left: 1rem;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #ff6347; /* Example hover color (tomato) */
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar .nav-links {
+                flex-direction: column;
+                display: none;
+                width: 100%;
+            }
+
+            .navbar .nav-links.active {
+                display: flex;
+            }
+
+            .navbar .menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                color: #fff;
+                font-size: 1.5rem;
+                cursor: pointer;
+                margin-top: 0.5rem;
+            }
+        }
+		
+		.container h2 { 
+			text-align: center
+		}
+		
+		.service-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Gallery Section */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials */
+.testimonial-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card h4 {
+    font-size: 1rem;
+    text-align: right;
+    color: #555;
+}
+        </style>
+</head>
+<body> 
+	<header>
+        <div class="container">
+            <h1>Hole Golf &amp; Resorts</h1>
+             <nav class="navbar">
+        <div class="logo">
+            <img src="logo1.png" alt="Company Logo" width="100" height="100" style="border-radius: 50%;"> 
+        </div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+         <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about us.html">About us</a></li>
+        <li><a href="Room and Suites.html">Room &amp; Suites </a></li>
+        <li><a href="dining1.html">Dining</a></li>
+        
+    </ul>
+    </nav>
+        </div>
+    </header>
+		
+	<section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>Event Planning</h3>
+                    <p>Comprehensive event planning services, including theme selection, decor, catering, and entertainment.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Venue Booking</h3>
+                    <p>Find and book the perfect venue for your event. We handle all arrangements to ensure a smooth experience.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Guest Management</h3>
+                    <p>Manage your guest list effortlessly with our RSVP tracking, digital invitations, and seating arrangements.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Catering &amp; Entertainment</h3>
+                    <p>Custom menus, top-notch catering services, and entertainment options tailored to your event's theme.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	</body>
+	</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore exquisite dining options at Hole Golf & Resorts.">
+    <title>Dining | Hole Golf &amp; Resorts</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+	body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+		.containeri {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+		 h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: green;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		}
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff6347;
+}
+		.navbar {
+            background-color: #333;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #fff;
+        }
+
+        .navbar .logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbar .nav-links li {
+            margin-left: 1rem;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #ff6347; /* Example hover color (tomato) */
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+            }
+
+            .navbar .nav-links {
+                flex-direction: column;
+                display: none;
+                width: 100%;
+            }
+
+            .navbar .nav-links.active {
+                display: flex;
+            }
+
+            .navbar .menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                color: #fff;
+                font-size: 1.5rem;
+                cursor: pointer;
+                margin-top: 0.5rem;
+            }
+        }
+		
+}
+        .hero-dining {
+            background: url('dining-banner.jpg') no-repeat center center/cover;
+            color: #fff;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .dining-section {
+            padding: 2rem 0;
+        }
+
+        .dining-option {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .dining-option img {
+            width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .dining-info {
+            max-width: 600px;
+        }
+
+        .dining-info h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .dining-info p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn-reserve {
+            padding: 0.75rem 1.5rem;
+            background-color: #ff6347;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-reserve:hover {
+            background-color: #e5533d;
+        }
+		
+	
+    </style>
+</head>
+<body>
+	 <header>
+        <div class="containeri">
+            <h1>Hole Golf &amp; Resorts</h1>
+            <nav class="navbar">
+        <div class="logo">
+            <img src="logo1.png" alt="Company Logo" width="100" height="100" style="border-radius: 50%;"> 
+        </div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+         <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="Room and Suites.html">Room &amp; Suites&nbsp;</a></li>
+        <li><a href="dining1.html">Dining</a></li>
+        
+    </ul>
+    </nav>
+		 </div>		
+    </header>
+	
+    <!-- Hero Section for Dining -->
+    <section class="hero-dining">
+        <h1>Dining at Hole Golf &amp; Resorts</h1>
+    </section>
+
+    <!-- Dining Options Section -->
+    <section class="dining-section containeri">
+        <h2>Our Dining Experiences</h2>
+
+        <div class="dining-option">
+            <img src="greenhousecafe.jfif" alt="Fine Dining Restaurant">
+            <div class="dining-info">
+                <h3>The Greenhouse</h3>
+                <p>Enjoy a luxurious dining experience with locally sourced ingredients, prepared by our award-winning chefs. The Greenhouse offers a modern, refined atmosphere perfect for any occasion.</p>
+                <a href="#contact" class="btn-reserve">Reserve a Table</a>
+            </div>
+        </div>
+
+        <div class="dining-option">
+            <img src="fairwaycafe.jpg" alt="Casual Dining Area">
+            <div class="dining-info">
+                <h3>The Fairway Café</h3>
+                <p>Relax in a casual setting with a beautiful view of the greens. The Fairway Café is perfect for breakfast, brunch, or a casual lunch, offering a wide range of seasonal dishes.</p>
+                <a href="#contact" class="btn-reserve">Reserve a Table</a>
+            </div>
+        </div>
+
+        <div class="dining-option">
+            <img src="terracegrillcafe.webp" alt="Outdoor Lounge">
+            <div class="dining-info">
+                <h3>The Terrace Grill</h3>
+                <p>Experience open-air dining at The Terrace Grill, where you can enjoy grilled specialties, refreshing cocktails, and stunning sunset views. The perfect spot for a relaxing evening.</p>
+                <a href="#contact" class="btn-reserve">Reserve a Table</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
